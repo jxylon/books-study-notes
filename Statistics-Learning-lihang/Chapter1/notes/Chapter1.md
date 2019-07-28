@@ -130,7 +130,7 @@
 
 4. **结构风险**(structural risk)
    $R_{srm}(f)=\frac{1}{N}\sum_{i=1}^{N}L(y_i,f(x_i))+\lambda J(f)$
-   $J(f)$为模型复杂度, $\lambda \geqslant 0$是系数，用以权衡经验风险和模型复杂度。
+   $J(f)$为模型复杂度, $\lambda \geq 0$是系数，用以权衡经验风险和模型复杂度。
 
 #### 常用损失函数
 
@@ -139,7 +139,7 @@
 $L(Y,f(X))$
 
 1. 0-1损失
-   $L=\begin{cases}1, Y \neq f(X) \\0, Y=f(X) \end{cases}$
+   $L=\begin{cases}1, Y \neq f(X) \\ 0, Y=f(X) \end{cases}$
 2. 平方损失
    $L=(Y-f(X))^2$
 3. 绝对损失
@@ -148,7 +148,7 @@ $L(Y,f(X))$
 $L(Y,P(Y|X))$
 
 1. 对数损失
-   这里$P(Y|X)\leqslant 1$，对应的对数是负值，所以对数损失中包含一个负号，为什么不是绝对值？因为肯定是负的。
+   这里$P(Y|X)\leq 1$，对应的对数是负值，所以对数损失中包含一个负号，为什么不是绝对值？因为肯定是负的。
    $L=-\log P(Y|X)$
 
 #### ERM与SRM
