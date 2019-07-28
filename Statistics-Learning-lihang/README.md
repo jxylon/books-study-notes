@@ -9,7 +9,7 @@
     + [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) 
 + Contents
   + CH01-统计学习及监督学习概论
-    + Notes - [笔记](./Chapter1/notes/Chapter1.md)
+    + notes - [笔记](./Chapter1/notes/Chapter1.md)
   + CH02-感知机
-    + Notes - 
-    + Codes -
+    + notes - [笔记](./Chapter2/notes/Chapter2.md)
+    + codes - [代码](./Chapter2/codes)
