@@ -6,7 +6,7 @@
 
 + 定义：
 
-  + 输入空间：$\mathcal X\sube \bf R^n$
+  + 输入空间：$\mathcal X \sube \bf R^n$
 
     输出空间：$\mathcal Y=\{{+1,-1\}}$
 
@@ -18,7 +18,7 @@
 
   + sign是符号函数，即
     $$
-    sign(x) = \begin{cases}+1, & x\geq0 \\-1, & x<0 \\\end{cases}
+    sign(x) = \begin{cases}+1, & x\geq 0 \\ -1, & x<0 \\\end{cases}
     $$
 
 + 感知机是一种线性分类模型，属于判别模型，其假设空间定义在特征空间的所有线性分类模型或线性分类器。
@@ -53,13 +53,13 @@ $$
 
  ### $\xi2.3.1$ 原始形式
 
-> 输入：$T=\{(x_1,y_1),(x_2,y_2),\dots,(x_N,y_N)\}\\ x_i\in \cal X=\bf R^n\mit , y_i\in \cal Y\it =\{-1,+1\}, i=1,2,\dots,N; \ \ 0<\eta\leqslant 1$
+> 输入：$T=\{(x_1,y_1),(x_2,y_2),\dots,(x_N,y_N)\}\\ x_i\in \cal X=\bf R^n\mit , y_i\in \cal Y\it =\{-1,+1\}, i=1,2,\dots,N; \ \ 0<\eta\leq 1$
 >
 > 输出：$w,b;f(x)=sign(w\cdot x+b)$
 >
 > 1. 选取初值$w_0,b_0$
 > 2. 训练集中选取数据$(x_i,y_i)$
-> 3. 如果$y_i(w\cdot x_i+b)\leqslant 0$
+> 3. 如果$y_i(w\cdot x_i+b)\leq 0$
 >
 > $$
 > w\leftarrow w+\eta y_ix_i \nonumber\\
@@ -74,7 +74,7 @@ $$
 
 + 对偶形式的基本思想是将$w$和$b$表示为实例$x_i$和标记$y_i$的线性组合的形式，通过求解其系数而求得$w$和$b$。
 
-> 输入：$T=\{(x_1,y_1),(x_2,y_2),\dots,(x_N,y_N)\}\\ x_i\in \cal{X}=\bf{R}^n , y_i\in \cal{Y} =\{-1,+1\}, i=1,2,\dots, N; 0< \eta \leqslant 1$
+> 输入：$T=\{(x_1,y_1),(x_2,y_2),\dots,(x_N,y_N)\}\\ x_i\in \cal{X}=\bf{R}^n , y_i\in \cal{Y} =\{-1,+1\}, i=1,2,\dots, N; 0< \eta \leq 1$
 >
 > 输出：
 > $$
@@ -84,7 +84,7 @@ $$
 >
 > 1. $\alpha \leftarrow 0,b\leftarrow 0$
 > 2. 训练集中选取数据$(x_i,y_i)$
-> 3. 如果$y_i\left(\sum_{j=1}^N\alpha_jy_jx_j\cdot x+b\right) \leqslant 0$
+> 3. 如果$y_i\left(\sum_{j=1}^N\alpha_jy_jx_j\cdot x+b\right) \leq 0$
 >
 > $$
 > \alpha_i\leftarrow \alpha_i+\eta \nonumber\\
