@@ -16,12 +16,15 @@ y_list = []
 
 def draw_formula(ori_data, w, b):
     # 点集
-    points = ori_data.iloc[:, 0:dimension]
+    pos_points = ori_data[ori_data['y'] == 1].iloc[:, 0:dimension]
+    neg_points = ori_data[ori_data['y'] == -1].iloc[:, 0:dimension]
     # 图例和图集
     label_list = []
     plot_list = []
     # 画出点
-    plt.plot(points['x1'], points['x2'], 'ro')
+    p1, = plt.plot(pos_points['x1'], pos_points['x2'], 'ro')
+    p2, = plt.plot(neg_points['x1'], neg_points['x2'], 'g^')
+    l1 = plt.legend(handles=[p1, p2], labels=['+1', '-1'], loc='lower left')
     # 画出直线
     x = np.linspace(1, 10)
     # x*w0 + y*w1 + b = 0
@@ -42,6 +45,7 @@ def draw_formula(ori_data, w, b):
         label = 'line' + str(i + 1)
         label_list.append(label)
     plt.legend(handles=plot_list, labels=label_list, loc='upper right')
+    plt.gca().add_artist(l1)
     plt.show()
 
 
