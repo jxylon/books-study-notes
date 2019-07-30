@@ -10,10 +10,12 @@
 
 + 朴素贝叶斯法通过训练数据集学习联合概率分布P(X,Y)。
 + 先验概率分布
+  
   + $P(Y=c_k)，k = 1,2,...,K$
 + 条件概率分布
-  + $P(X=x|Y=c_k)&=P(X^{(1)},\dots,X^{(n)}|Y=c_k)$
-
+  
++ $P(X=x|Y=c_k) =P(X^{(1)},\dots,X^{(n)}|Y=c_k)$
+  
 + 于是学习到联合概率分布$P(X,Y)$
 
 + 书中有这样一段内容
@@ -72,7 +74,7 @@
   $$
   P_{\lambda}(X^{(j)}=a_{jl}|Y=c_k)=\frac{\sum\limits_{i=1}^NI(x_i^{j}=a_{jl},y_j=c_k)+\lambda}{\sum\limits_{i=1}^NI(y_j=c_k)+S_j\lambda}
   $$
-  其中$\lambda \geqslant 0$
+  其中$\lambda \geq 0$
 
   当$\lambda = 0$的时候，就是极大似然估计。
 
