@@ -112,7 +112,7 @@
   > $$
   > 其中
   > $$
-  > H_t(T)=-\sum_k\color{red}\frac{N_{tk}}{N_t}\color{black}\log \frac {N_{tk}}{N_t}
+  > H_t(T)=-\sum_k\color{red}\frac{N_{tk}}{N_t}\color{black}\log\frac{N_{tk}}{N_t}
   > $$
   >
   > $$
@@ -163,6 +163,7 @@
        $$
 
 + **基尼系数定义**
+  
   + $Gini(p) = \sum_{k=1}^Kp_k(1-p_k)=1-\sum_{k=1}^Kp_k^2$
 + **CART生成算法**
   + 输入：训练集D，停止计算的条件
