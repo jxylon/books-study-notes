@@ -112,7 +112,7 @@
   > $$
   > 其中
   > $$
-  > H_t(T)=-\sum_k\color{red} \frac {N_{tk}}{N_t}\color{black}\log\frac{N_{tk}}{N_t}
+  > H_t(T)=-\sum_k\color{red}\frac{N_{tk}}{N_t}\color{black}\log\frac{N_{tk}}{N_t}
   > $$
   >
   > $$
