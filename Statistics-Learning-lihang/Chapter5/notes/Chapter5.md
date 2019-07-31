@@ -112,11 +112,11 @@
   > $$
   > 其中
   > $$
-  > H_t(T)=-\sum_k\color{red}\frac{N_{tk}}{N_t}\color{black}\log\frac{N_{tk}}{N_t}
+  > H_t(T)=-\sum_k\color\frac{N_{tk}}{N_t}\log\frac{N_{tk}}{N_t}
   > $$
   >
   > $$
-  > C(T)=\sum_{t=1}^{|T|}\color{red}N_tH_t(T)\color{black}=-\sum_{t=1}^{|T|}\sum_{k=1}^K\color{red}N_{tk}\color{black}\log\frac{N_{tk}}{N_t}
+  > C(T)=\sum_{t=1}^{|T|}N_tH_t(T)=-\sum_{t=1}^{|T|}\sum_{k=1}^KN_{tk}\log\frac{N_{tk}}{N_t}
   > $$
   >
   > 这时有
