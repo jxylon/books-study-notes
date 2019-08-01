@@ -2,7 +2,7 @@
 
 + def draw_formula(ori_data, w, b):画出函数在二维坐标上的图
 
-  ![ ](D:\GitHub\books-study-notes\Statistics-Learning-lihang\Chapter2\codes\perceptron.png)
+  ![坐标图](perceptron.png)
 
 + def algorithm(ori_data, rate):感知机算法
       """
