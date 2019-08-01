@@ -7,7 +7,7 @@
     + 设置方法：文件--偏好设置--markdown--内联公式 [勾选]
   + Google Chrome插件：
     + [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) 
-+ Contents
++ 第一篇    监督学习
   + CH01 - 统计学习及监督学习概论
     + notes - [笔记](./Chapter1/notes/Chapter1.md)
   + CH02 - 感知机
@@ -19,3 +19,26 @@
   + CH04 - 朴素贝叶斯法
     - notes - [笔记](./Chapter4/notes/Chapter4.md)
     - codes - [代码](./Chapter4/codes)
+  + CH05 - 决策树
+    - notes - [笔记](./Chapter5/notes/Chapter5.md)
+    - codes - [代码](./Chapter5/codes)
+  + CH06 - 逻辑斯谛回归与最大熵模型
+    - notes - [笔记](./Chapter6/notes/Chapter6.md)
+    - codes - [代码](./Chapter6/codes)
+  + CH07 - 支持向量机
+    - notes - [笔记](./Chapter7/notes/Chapter7.md)
+    - codes - [代码](./Chapter7/codes)
+  + CH08 - 提升方法
+    - notes - [笔记](./Chapter8/notes/Chapter8.md)
+    - codes - [代码](./Chapter8/codes)
+  + CH09 - EM算法及其推广
+    - notes - [笔记](./Chapter9/notes/Chapter9.md)
+    - codes - [代码](./Chapter9/codes)
+  + CH10 - 隐马尔科夫模型
+    - notes - [笔记](./Chapter10/notes/Chapter10.md)
+    - codes - [代码](./Chapter10/codes)
+  + CH11 - 条件随机场
+    - notes - [笔记](./Chapter11/notes/Chapter11.md)
+    - codes - [代码](./Chapter11/codes)
+  + CH12 - 监督学习方法总结
+    - notes - [笔记](./Chapter12/notes/Chapter12.md)
