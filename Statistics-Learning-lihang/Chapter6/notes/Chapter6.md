@@ -74,6 +74,12 @@ $$
   \end{aligned}
   $$
 
++ 参数估计，似然函数
+  $$
+  \prod\limits_{i=1}\limits^NP(y_i|x_i,W)=\prod\limits_{i=1}\limits^N\prod\limits_{l=1}^K \left(\frac{\exp(w_k\cdot x_i)}{\sum_{k=1}^K\exp(w_k\cdot x_i)}\right)^{I(y_i=l)}
+  $$
+  
+
 ## $\xi6.2$ 最大熵模型
 
 ### $\xi6.2.1$ 最大熵原理
