@@ -9,31 +9,31 @@
     + [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) 
 + 第一篇    监督学习
   + CH01 - 统计学习及监督学习概论
-    + notes - [笔记](./Chapter1/notes/Chapter1.md)
+    + notes - [笔记](./Chapter01/notes/Chapter1.md)
   + CH02 - 感知机
-    + notes - [笔记](./Chapter2/notes/Chapter2.md)
-    + codes - [代码](./Chapter2/codes)
+    + notes - [笔记](./Chapter02/notes/Chapter2.md)
+    + codes - [代码](./Chapter02/codes)
   + CH03 - k近邻法
-    - notes - [笔记](./Chapter3/notes/Chapter3.md)
-    - codes - [代码](./Chapter3/codes)
+    - notes - [笔记](./Chapter03/notes/Chapter3.md)
+    - codes - [代码](./Chapter03/codes)
   + CH04 - 朴素贝叶斯法
-    - notes - [笔记](./Chapter4/notes/Chapter4.md)
-    - codes - [代码](./Chapter4/codes)
+    - notes - [笔记](./Chapter04/notes/Chapter4.md)
+    - codes - [代码](./Chapter04/codes)
   + CH05 - 决策树
-    - notes - [笔记](./Chapter5/notes/Chapter5.md)
-    - codes - [代码](./Chapter5/codes)
+    - notes - [笔记](./Chapter05/notes/Chapter5.md)
+    - codes - [代码](./Chapter05/codes)
   + CH06 - 逻辑斯谛回归与最大熵模型
-    - notes - [笔记](./Chapter6/notes/Chapter6.md)
-    - codes - [代码](./Chapter6/codes)
+    - notes - [笔记](./Chapter06/notes/Chapter6.md)
+    - codes - [代码](./Chapter06/codes)
   + CH07 - 支持向量机
-    - notes - [笔记](./Chapter7/notes/Chapter7.md)
-    - codes - [代码](./Chapter7/codes)
+    - notes - [笔记](./Chapter07/notes/Chapter7.md)
+    - codes - [代码](./Chapter07/codes)
   + CH08 - 提升方法
-    - notes - [笔记](./Chapter8/notes/Chapter8.md)
-    - codes - [代码](./Chapter8/codes)
+    - notes - [笔记](./Chapter08/notes/Chapter8.md)
+    - codes - [代码](./Chapter08/codes)
   + CH09 - EM算法及其推广
-    - notes - [笔记](./Chapter9/notes/Chapter9.md)
-    - codes - [代码](./Chapter9/codes)
+    - notes - [笔记](./Chapter09/notes/Chapter9.md)
+    - codes - [代码](./Chapter09/codes)
   + CH10 - 隐马尔科夫模型
     - notes - [笔记](./Chapter10/notes/Chapter10.md)
     - codes - [代码](./Chapter10/codes)
